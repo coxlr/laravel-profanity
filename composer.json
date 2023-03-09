@@ -1,0 +1,60 @@
+{
+    "name": "coxlr/laravel-profanity",
+    "description": "A Laravel package to find and remove profanity from text strings.",
+    "keywords": [
+        "coxlr",
+        "laravel",
+        "profanity"
+    ],
+    "homepage": "https://github.com/coxlr/laravel-profanity",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lee Cox",
+            "email": "hello@leecox.dev",
+            "homepage": "https://leecox.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.14",
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^9.3.0",
+        "vimeo/psalm": "^4.18",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coxlr\\Profanity\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Coxlr\\Profanity\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "psalm": "vendor/bin/psalm",
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Coxlr\\Profanity\\ProfanityServiceProvider"
+            ],
+            "aliases": {
+                "Profanity": "Coxlr\\Profanity\\Facades\\Profanity"
+            }
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
