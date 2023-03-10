@@ -1,7 +1,7 @@
 # A Laravel package to find and remove profanity from text strings.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/coxlr/laravel-profanity.svg?style=flat-square)](https://packagist.org/packages/coxlr/laravel-profanity)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/coxlr/laravel-profanity/Tests?label=tests)](https://github.com/coxlr/laravel-profanity/actions?query=workflow%3ATests+branch%3Amaster)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/coxlr/laravel-profanity/Tests?label=tests)](https://github.com/coxlr/laravel-profanity/actions?query=workflow%3ATests+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/coxlr/laravel-profanity.svg?style=flat-square)](https://packagist.org/packages/coxlr/laravel-profanity)
 
 ## Installation
