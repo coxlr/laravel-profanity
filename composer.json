@@ -23,7 +23,6 @@
         "friendsofphp/php-cs-fixer": "^3.14",
         "orchestra/testbench": "^8.0|^9.0|^10.0",
         "phpunit/phpunit": "^9.3.0|^10.0|^11.0|^12.0",
-        "vimeo/psalm": "^4.18|^5.23",
         "vlucas/phpdotenv": "^5.3"
     },
     "autoload": {
@@ -37,7 +36,6 @@
         }
     },
     "scripts": {
-        "psalm": "vendor/bin/psalm",
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
         "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
